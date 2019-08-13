@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <style>
+      :root { 
+        counter-reset: n;
+      }
+      the-wall{
+        display:flex;
+        flex-direction: column-reverse
+      }
+      the-wall:before{
+        white-space: pre;
+        content:"No more bottles of beer on the wall, no more bottles of beer. \A Go to the store and buy some more, 99 bottles of beer on the wall."
+      }
+      bottle-of-beer{
+       display:flex;
+       counter-increment: n 1;
+       flex-direction: column-reverse;
+       margin-bottom: 10px;
+      }
+      bottle-of-beer:after{
+        display:block;
+        counter-increment: n 1;
+      }
+      bottle-of-beer:nth-of-type(1):after{
+        content: counter(n) " bottle of beer on the wall, " counter(n) " bottle of beer."
+      }
+      bottle-of-beer:nth-of-type(n+2):after{
+        content: counter(n) " bottles of beer on the wall, " counter(n) " bottles of beer."
+      }
+      bottle-of-beer:before{
+        display:block;
+        counter-increment: n -1;
+      }
+      bottle-of-beer:nth-of-type(1):before{
+        content: "take one down pass it around, no more bottles of beer on the wall."
+      }
+      bottle-of-beer:nth-of-type(2):before{
+        content: "take one down pass it around, 1 bottle of beer on the wall."
+      }
+      bottle-of-beer:nth-of-type(n+3):before{
+        content: "take one down pass it around, " counter(n) " bottles of beer on the wall."
+      }
+    </style>
+  </head>
+  <body>
+    <the-wall>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+      <bottle-of-beer></bottle-of-beer>
+    </the-wall>
+  </body>
+</html>
